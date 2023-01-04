@@ -1,0 +1,26 @@
+<div class="mt-5">
+  <div class="row" *ngIf="!loading">
+    <div class="col-md-5 image d-flex justify-content-center align-items-center">
+      <img src="{{product.image}}"alt="">
+    </div>
+    <div class="col-md-7 pl-5">
+      <div class="content pt-3">
+        <div class="content-data">
+          <h3>{{product.title}}</h3>
+          <p class="price">{{product.price}} L.E</p>
+          <p class="description">{{product.description}}</p>
+        </div>
+
+        <p class="mt-2">Category:{{product.category}}</p>
+        <p> Count:{{product.rating.count}}</p>
+
+        <p>Rate:{{product.rating.rate}}</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="text-center pt-5">
+    <app-spinner *ngIf="loading"></app-spinner>
+  </div>
+
+</div>

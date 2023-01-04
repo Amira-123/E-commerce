@@ -1,0 +1,26 @@
+.image{
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(173, 173, 178,.5);
+  height: 400px;
+  img{
+    width: 70%;
+    height: 300px;
+  }
+}
+
+.content-data{
+  border-bottom: 1px dashed #777;
+
+  .price{
+    font-size: 25px;
+    color: #F33927;
+    font-weight: 500;
+  }
+  .description{
+    color: #777;
+  }
+}
+p{
+  color: rgb(61, 58, 58);
+}
+

@@ -1,0 +1,12 @@
+label {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+select {
+  box-shadow: none !important;
+}
+@media (max-width: 768px) {
+  select {
+    width: 15rem;
+  }
+}

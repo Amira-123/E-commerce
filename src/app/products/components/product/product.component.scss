@@ -1,0 +1,43 @@
+.products {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  padding: 5px;
+  transition: all 0.5s;
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 5px rgba(173, 173, 178, 0.5);
+  }
+  .image {
+    text-align: center;
+    img {
+      height: 150px;
+    }
+  }
+  .body {
+    h4 {
+      font-weight: 500;
+      height: 50px;
+      &:hover {
+        color: #ffa726;
+      }
+    }
+    p {
+      height: 90px;
+      color: #adabab;
+    }
+  }
+  i {
+    color: #ffa726;
+  }
+  span {
+    font-size: 20px;
+  }
+  .addBtn {
+    background-color: #ef6c00;
+    color: #fff;
+    font-weight: 500;
+    i {
+      color: #fff;
+    }
+  }
+}
